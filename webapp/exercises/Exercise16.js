@@ -6,11 +6,14 @@ sap.ui.define([
 
         return {
             onPopoverSave: function (oEvent) {
-                // Add a MessageToast here
+                let oMessageToast = MessageToast;
+                oMessageToast.show("Save Command executed (Ctr+s)");
             },
 
             onPopoverDelete: function (oEvent) {
                 // Add a MessageToast here
+                let oMessageToast = MessageToast;
+                oMessageToast.show("Delete Command executed (Ctre+d)");
             }
 
         };

@@ -5,6 +5,7 @@
     <Dialog
         id="idExercise12Dialog"
         title="Product"
+        ariaLabelledBy="idNotebookExercise12DialogText"
         class="sapUiResponsivePadding--content sapUiResponsivePadding--header"
     >
         <content>

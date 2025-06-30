@@ -13,11 +13,21 @@
         />
         <Input
             id="idExercise05PostalCodeInput"
+            ariaLabelledBy="idPostalCode"
             value="75000"
         />
         <Input
             id="idExercise05CityInput"
+            ariaLabelledBy="idRegion"
             value="Paris"
         />
     </form:SimpleForm>
+    <core:InvisibleText 
+        id="idPostalCode"
+        text="Postal Code"
+    />
+        <core:InvisibleText 
+        id="idRegion"
+        text="Region"
+    />
 </core:FragmentDefinition>

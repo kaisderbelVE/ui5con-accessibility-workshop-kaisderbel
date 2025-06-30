@@ -1,9 +1,14 @@
 <core:FragmentDefinition
     xmlns="sap.m"
     xmlns:core="sap.ui.core"
->
+>   
+    <Title 
+    id="idTableTitle"
+    text="List of product"
+    ></Title>
     <Table
         id="idProductTableSetExercise07Table"
+        ariaLabelledBy="idTableTitle"
         items="{ path: '/ProductTable07Set', templateShareable: false }"
         autoPopinMode="true"
     >

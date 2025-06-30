@@ -12,6 +12,7 @@
                 id="idExercise11InfoIconTabFilter"
                 icon="sap-icon://hint"
                 key="info"
+                tooltip="information"
             >
                 <Text
                     id="idExercise11InfoContentGoesHereText"
@@ -24,6 +25,7 @@
                 icon="sap-icon://attachment"
                 key="attachments"
                 count="3"
+                tooltip="attachments"
             >
                 <Text
                     id="idExercise11AttachmentsGoesHereText"
@@ -36,6 +38,7 @@
                 icon="sap-icon://notes"
                 key="notes"
                 count="12"
+                tooltip="notes"
             >
                 <Text
                     id="idExercise11NotesGoesHereText"
@@ -47,6 +50,7 @@
                 id="idExercise11PeopleIconTabFilter"
                 icon="sap-icon://group"
                 key="people"
+                tooltip="people"
             >
                 <Text
                     id="idExercise11PeopleContentGoesHereText"

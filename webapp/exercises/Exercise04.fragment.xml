@@ -7,6 +7,8 @@
         width="150px"
         class="sapUiSmallMarginEnd"
         text="{i18n>Exercise04.fragment.label}"
+        textAlign="Begin"
+        labelFor="idExercise04Input"
     />
     <Input id="idExercise04Input" />
 </core:FragmentDefinition>

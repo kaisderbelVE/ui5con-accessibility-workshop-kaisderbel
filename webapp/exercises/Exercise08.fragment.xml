@@ -6,5 +6,7 @@
         id="idExercise08Image"
         src="{images>/exercise08}"
         width="300px"
+        alt="You can see in the image of a laptop and this laptop displays the profile of 4 new employee by VESI"
+        decorative="false"
     />
 </core:FragmentDefinition>

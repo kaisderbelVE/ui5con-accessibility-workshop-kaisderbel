@@ -8,5 +8,6 @@
         icon="sap-icon://action"
         width="150px"
         press="onOpenDialogButtonExercise02Press"
+        ariaHasPopup="Dialog"
     />
 </core:FragmentDefinition>

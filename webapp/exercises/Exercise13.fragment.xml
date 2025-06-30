@@ -15,5 +15,6 @@
         id="idFirstNameExercise13Input"
         required="true"
         width="250px"
+        liveChange="onInputExercise13LiveChange"
     />
 </core:FragmentDefinition>

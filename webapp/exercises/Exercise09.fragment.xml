@@ -78,6 +78,7 @@
                         icon="sap-icon://edit"
                         press="onButtonEditTableColumnPress"
                         class="sapUiTinyMarginTop sapUiTinyMarginBottom"
+                        tooltip="Edit Button {Item}"
                     />
                 </table:template>
             </table:Column>
@@ -101,6 +102,7 @@
                         type="Reject"
                         press="onButtonDeleteTableColumnPress"
                         class="sapUiTinyMarginTop sapUiTinyMarginBottom"
+                        tooltip="Delete Button {Item}"
                     />
                 </table:template>
             </table:Column>

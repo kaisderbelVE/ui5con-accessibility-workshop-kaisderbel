@@ -11,6 +11,8 @@
             <!-- //Take a look at sap.ui.core.CommandExecution control -->
             <!-- //For Save command call onPopoverSave method -->
             <!-- //For Delete command call onPopoverDelete method -->
+            <core:CommandExecution id="idExercise16SaveCommandExecution" enabled="true" command="Save" execute="onPopoverSave" />
+            <core:CommandExecution id="idExercise16DeleteCommandExecution" enabled="true" command="Delete" execute="onPopoverDelete" />
         </dependents>
         <content>
             <Input id="idExercise16Input" />

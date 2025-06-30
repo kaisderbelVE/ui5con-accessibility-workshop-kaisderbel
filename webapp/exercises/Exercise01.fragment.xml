@@ -93,6 +93,7 @@
                             }
                         }"
                         press="onFullDeliveryLinkPress"
+                        accessibleRole="Button"
                     />
                     <ObjectAttribute
                         id="idCreatorExercise01ObjectAttribute"

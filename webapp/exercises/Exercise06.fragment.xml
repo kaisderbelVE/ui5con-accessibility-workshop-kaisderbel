@@ -12,5 +12,6 @@
     />
     <Input
         id="idExercise06Input"
+        description="Please enter the tempeture in Celsius"
     />
 </core:FragmentDefinition>

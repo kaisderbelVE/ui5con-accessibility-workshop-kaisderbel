@@ -46,17 +46,20 @@
                         text="{ProductName}"
                         tooltip=""
                         href="{ProductNameUrl}"
+                        emptyIndicatorMode="{= ${ProductName} ? 'Off' : 'On' }"
                     />
                     <ObjectIdentifier
                         id="idSupplierExercise18ObjectIdentifier"
                         title="{Supplier}"
                         titleActive="true"
                         tooltip=""
+                        emptyIndicatorMode="{= ${Supplier} ? 'Off' : 'On' }"
                     />
                     <Text
                         id="idDescriptionItemExercise18Text"
                         text="{Description}"
                         tooltip=""
+                        emptyIndicatorMode="{= ${Description} ? 'Off' : 'On' }"
                     />
                 </cells>
             </ColumnListItem>

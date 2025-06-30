@@ -2,8 +2,25 @@
     xmlns="sap.m"
     xmlns:core="sap.ui.core"
 >
+    <core:InvisibleText 
+        id="idSegmentButton"
+        text="This is a segment Button, it contains 3 Tabs, the first one is Map, the second one is Stellite and the third one is Hybrid"
+    />
+    <core:InvisibleText 
+        id="idSegmentButtonItem1"
+        text="Tab Map"
+    />
+    <core:InvisibleText 
+        id="idSegmentButtonItem2"
+        text="Tab Stellite"
+    />
+    <core:InvisibleText 
+        id="idSegmentButtonItem3"
+        text="Tab Hybrid"
+    />
     <SegmentedButton
         id="idExercise10SegmentedButton"
+        ariaLabelledBy="idSegmentButton"
     >
         <items>
             <SegmentedButtonItem

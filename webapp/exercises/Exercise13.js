@@ -16,12 +16,16 @@ sap.ui.define([
                     // Take a look at setValueState and setValueStateText methods for sap.m.Input
                     // reset the input value state
                     // reset the input state text
+                    oSource.setValueState = "None";
+                    oSource.setValueStateText = ""
 
                     // if the input field has no value
                     if (!sValue || sValue.length <= 0) {
                         // Take a look at setValueState and setValueStateText methods for sap.m.Input
                         // set the input value state to error
                         // set the input state message to a suitble error message
+                        oSource.setValueState = "Error";
+                        oSource.setValueStateText = "Please enter a First name"
                     }
                 }
             }

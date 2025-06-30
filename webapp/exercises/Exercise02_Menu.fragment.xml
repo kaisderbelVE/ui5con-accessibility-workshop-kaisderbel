@@ -8,5 +8,6 @@
         icon="sap-icon://menu"
         width="150px"
         press="onOpenMenuButtonExercise02Press"
+        ariaHasPopup="Menu"
     />
 </core:FragmentDefinition>

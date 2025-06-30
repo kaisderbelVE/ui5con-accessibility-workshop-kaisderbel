@@ -4,8 +4,22 @@
 >
     <Page
         id="idExercise03Page"
-        backgroundDesign="Solid"
-    >
+        backgroundDesign="Solid">
+        <landmarkInfo>
+            <PageAccessibleLandmarkInfo
+                id="idExercise03PageAccessibleLandmarkInfo"
+                rootRole="Region"
+                rootLabel="Product Details"
+                contentRole="Main"
+                contentLabel="Product Description"
+                headerRole="Region"
+                headerLabel="Product Header"
+                subHeaderRole="Region"
+                subHeaderLabel="Category Description"
+                footerRole="Region"
+                footerLabel="Product Footer"
+            />
+        </landmarkInfo>
         <customHeader>
             <Bar id="idCustomHeaderExercise03Bar">
                 <contentMiddle>

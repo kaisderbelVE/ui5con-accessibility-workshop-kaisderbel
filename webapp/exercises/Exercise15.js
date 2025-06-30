@@ -25,14 +25,14 @@ sap.ui.define([
                             oMessageStrip.setText(sMessage);
                             oFlexBox.addItem(oMessageStrip);
                             //Take a look at announce method for sap.ui.core.InvisibleMessage control
-                            //this.oInvisibleMessage
+                            this.oInvisibleMessage.announce(sMessage,"Polite");
                         } else {
                             sMessage = "Assertive type of InivisibleMessage was created and added to the static area.";
                             oMessageStrip.setType("Error");
                             oMessageStrip.setText(sMessage);
                             oFlexBox.addItem(oMessageStrip);
                             //Take a look at announce method for sap.ui.core.InvisibleMessage control
-                            //this.oInvisibleMessage
+                            this.oInvisibleMessage.announce(sMessage,"Assertive")
                         }
 
                         setTimeout(function () {

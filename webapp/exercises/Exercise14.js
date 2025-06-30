@@ -25,9 +25,15 @@ sap.ui.define([
                 
                 if (oFirstNameInput && oLastNameInput && oEmailInput && this.validateForm(oFirstNameInput, oLastNameInput, oEmailInput)) {
                     // Success message strip 
-                    // let oSuccessMessageStrip =
+                    let oSuccessMessageStrip = new MessageStrip({
+                        id: sMessageStripId,
+                        text: "Form submitted successfully!",
+                        type: "Success",
+                        showIcon: true,
+                        showCloseButton: true
+                    });
                     // HINT! Work with the sMessageStripId
-                    // oPanel.addContent(oSuccessMessageStrip);
+                    oPanel.addContent(oSuccessMessageStrip);
                     
                     oFirstNameInput.setValue("");
                     oLastNameInput.setValue("");
@@ -35,9 +41,15 @@ sap.ui.define([
 
                 } else {
                     // Error message strip 
-                    // let oErrorMessageStrip =
+                    let oErrorMessageStrip = new MessageStrip({
+                        id: sMessageStripId,
+                        text: "Please fill out all required fields correctly.",
+                        type: "Error",
+                        showIcon: true,
+                        showCloseButton: true
+                    });
                     // HINT! Work with the sMessageStripId
-                    // oPanel.addContent(oErrorMessageStrip);
+                    oPanel.addContent(oErrorMessageStrip);
                 }
             },
 

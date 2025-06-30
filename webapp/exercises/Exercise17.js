@@ -53,8 +53,14 @@ sap.ui.define([
                         }).addStyleClass("sapUiResponsivePadding--content sapUiResponsivePadding--header");
 
                         // Take a look at setInitialFocus method for sap.m.Popover control
+                        //let oPopover = Popover;
+                        //oPopover.setInitialFocus()
+                        //oPopover.control = this._oExercise17Popover;
                         // Popover control => this._oExercise17Popover
                         // Close Button control ID => Fragment.createId(sFragmentId, "idExercise17PopoverCloseButton")
+                        // Fragment.createId(sFragmentId, "idExercise17PopoverCloseButton");
+
+                        this._oExercise17Popover.setInitialFocus(Fragment.createId(sFragmentId, "idExercise17PopoverCloseButton"));
 
                         oObjectPageSubSection.addDependent(this._oExercise17Popover);
                         this._oExercise17Popover.openBy(oSource);
@@ -64,6 +70,7 @@ sap.ui.define([
                     // Take a look at setInitialFocus method for sap.m.Popover control
                     // Popover control => this._oExercise17Popover
                     // Close Button control ID => Fragment.createId(sFragmentId, "idExercise17PopoverCloseButton")
+                    this._oExercise17Popover.setInitialFocus(Fragment.createId(sFragmentId, "idExercise17PopoverCloseButton"));
                     this._oExercise17Popover.openBy(oSource);
                 }
             }
