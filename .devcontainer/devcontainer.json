@@ -1,0 +1,19 @@
+{
+  "name": "SAPUI5 Codespace",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": {
+      "label": "SAPUI5 FLP App",
+      "onAutoForward": "openPreview",
+      "url": "http://localhost:8080/webapp/test/flpSandbox.html?sap-ui-xx-viewCache=false#training-display"
+    }
+  },
+
+ "customizations": {
+   "vscode": {
+     "extensions": [
+       "SAPSE.sap-ux-fiori-tools-extension-pack"
+     ]
+   }
+ }
+}
